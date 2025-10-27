@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alan Anto | AI & LLM Specialist</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <div class="brand">
+        <div class="logo">ALAN ANTO</div>
+        <div class="tag">AI & LLM Specialist</div>
+      </div>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-left">
+        <div class="hero-card glass">
+          <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop&crop=faces" alt="Alan Anto" />
+          <div class="hero-info">
+            <h1>MSc. in AI — LLM & Computer Vision Specialist</h1>
+            <p class="sub">Building end-to-end Autonomous & Retrieval-Augmented Generation (RAG) systems that deliver measurable impact.</p>
+
+            <div class="cta-row">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn outline" href="mailto:alan.anto.ai.2002@gmail.com">Contact</a>
+            </div>
+
+            <div class="social small">
+              <!-- Inline SVG icons -->
+              <a href="#" aria-label="LinkedIn" title="LinkedIn" class="icon"> 
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M4.98 3.5C4.98 4.66 4.06 5.6 2.88 5.6 1.7 5.6.78 4.66.78 3.5.78 2.34 1.7 1.4 2.88 1.4c1.18 0 2.1.94 2.1 2.1zM.9 8.98h3.96V24H.9V8.98zM8.28 8.98h3.8v2.06h.05c.53-1 1.83-2.06 3.77-2.06C20.44 8.98 22 10.94 22 14.5V24h-3.96v-8.1c0-1.93-.03-4.41-2.68-4.41-2.69 0-3.1 2.1-3.1 4.26V24H8.28V8.98z"/></svg>
+              </a>
+              <a href="#" aria-label="GitHub" title="GitHub" class="icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.6 2.9 8.5 6.9 9.9.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.1-3.4-1.1-.5-1.2-1.3-1.6-1.3-1.6-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1 .1 1.6-.7 1.9-1.1.3-.8.9-1.3 1.7-1.6-2.2-.3-4.5-1.1-4.5-5 0-1.1.4-2 1.1-2.7-.1-.3-.5-1.3.1-2.6 0 0 .9-.3 2.8 1.1.8-.2 1.6-.3 2.4-.3s1.6.1 2.4.3c1.9-1.4 2.8-1.1 2.8-1.1.6 1.3.2 2.3.1 2.6.7.7 1.1 1.6 1.1 2.7 0 3.9-2.4 4.7-4.6 5 .9.8 1.5 1.9 1.5 3.8v5.6c0 .3.2.7.8.5 4-1.4 6.9-5.3 6.9-9.9C23.1 5.3 18.3.5 12 .5z"/></svg>
+              </a>
+              <a href="mailto:alan.anto.ai.2002@gmail.com" aria-label="Email" title="Email" class="icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 13.065L.9 5.1V18c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5.1L12 13.065zM12 10L23.1 2H.9L12 10z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="floating glass stats">
+          <div class="stat">
+            <div class="num">90%</div>
+            <div class="label">RAG Relevance</div>
+          </div>
+          <div class="stat">
+            <div class="num">95%</div>
+            <div class="label">BERT Detection</div>
+          </div>
+          <div class="stat">
+            <div class="num">90%</div>
+            <div class="label">YOLOv8 Accuracy</div>
+          </div>
+        </div>
+
+        <div class="floating glass quick-links">
+          <h4>Highlighted Tech</h4>
+          <div class="pills">
+            <span>LangChain</span><span>ChromaDB</span><span>YOLOv8</span><span>BERT</span><span>Watsonx</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>🚀 Featured Projects</h2>
+      <div class="grid">
+        <article class="project-card">
+          <div class="project-media" style="background-image:url('https://images.unsplash.com/photo-1526378720110-7a6d7f23a1f7?q=80&w=1200&auto=format&fit=crop');"></div>
+          <div class="project-body">
+            <h3>Document-Aware RAG Chatbot</h3>
+            <p class="tech">LangChain • watsonx • ChromaDB • Python</p>
+            <p>Built a RAG chatbot answering PDF questions with high contextual relevance — backend integration improved answer relevance by 90%.</p>
+            <div class="project-cta">
+              <a class="btn" href="#">View Details</a>
+              <div class="tags"><span>RAG</span><span>LLM</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media" style="background-image:url('https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop');"></div>
+          <div class="project-body">
+            <h3>Autonomous Robotics System</h3>
+            <p class="tech">YOLOv8 • OpenCV • Raspberry Pi</p>
+            <p>Designed & deployed a restocking robot with real-time detection, achieving 90% detection accuracy. Published in IEEE ICTEST.</p>
+            <div class="project-cta">
+              <a class="btn" href="#">View Details</a>
+              <div class="tags"><span>Robotics</span><span>CV</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media" style="background-image:url('https://images.unsplash.com/photo-1581092580496-3c2f4b6f2cce?q=80&w=1200&auto=format&fit=crop');"></div>
+          <div class="project-body">
+            <h3>Semantic Intrusion Detection (BERT)</h3>
+            <p class="tech">BERT • TensorFlow • SQL</p>
+            <p>Real-time identification of SQL injection attacks using BERT with >95% accuracy and integrated alerting pipelines.</p>
+            <div class="project-cta">
+              <a class="btn" href="#">View Details</a>
+              <div class="tags"><span>Security</span><span>NLP</span></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="experience container">
+      <h2>🛠 Experience & Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="when">Jun 2023 — Aug 2023</div>
+          <div class="what">
+            <h4>Summer Intern in AI — IIIT Kerala</h4>
+            <p>Implemented a real-time fruit classification system using YOLOv8. Performed data labeling & augmentation on a 35-class Fruit 360 dataset.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="when">Apr 2025 — Apr 2027</div>
+          <div class="what">
+            <h4>MSc. in Artificial Intelligence — Brandenburg University of Technology</h4>
+            <p>Advanced coursework and thesis work on LLM applications, multimodal learning and autonomous systems.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="when">Dec 2020 — Jun 2024</div>
+          <div class="what">
+            <h4>B.Tech (Hons) in AI & Data Science — APJ Abdul Kalam Technological University</h4>
+            <p>Minor in Robotics with hands-on projects in CV, NLP and embedded systems.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills container">
+      <h2>🧠 Technical Toolkit</h2>
+
+      <div class="skills-grid">
+        <div class="skills-card glass">
+          <h3>Languages</h3>
+          <div class="badges">
+            <span>Python</span><span>R</span><span>SQL</span><span>C++</span>
+          </div>
+
+          <h3>Libraries & Frameworks</h3>
+          <div class="badges">
+            <span>TensorFlow</span><span>PyTorch</span><span>Hugging Face</span><span>LangChain</span><span>Keras</span>
+          </div>
+        </div>
+
+        <div class="skills-card glass">
+          <h3>Cloud & Tools</h3>
+          <div class="badges">
+            <span>Azure</span><span>AWS</span><span>ChromaDB</span><span>Roboflow</span>
+          </div>
+
+          <h3>Certifications</h3>
+          <ul class="cert-list">
+            <li>AWS Generative AI for Developers — Oct 2025</li>
+            <li>IBM AI Engineering Professional Certificate — Jul 2025</li>
+            <li>Microsoft Azure AI Essentials — Aug 2025</li>
+          </ul>
+        </div>
+
+        <div class="skills-card glass progress-card">
+          <h3>Proficiency</h3>
+          <div class="progress">
+            <label>Natural Language Processing <span>95%</span></label>
+            <div class="bar"><div data-value="95"></div></div>
+
+            <label>Computer Vision <span>90%</span></label>
+            <div class="bar"><div data-value="90"></div></div>
+
+            <label>Systems & Robotics <span>88%</span></label>
+            <div class="bar"><div data-value="88"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div class="contact-card glass">
+        <h3>Let's connect</h3>
+        <p>Email: <a href="mailto:alan.anto.ai.2002@gmail.com">alan.anto.ai.2002@gmail.com</a></p>
+        <p>Phone: +49 170 7499589</p>
+        <p>Languages: German (B1) • English (C1)</p>
+        <div class="social">
+          <a href="#" class="icon">LinkedIn</a>
+          <a href="#" class="icon">GitHub</a>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <h3>Quick Bio</h3>
+        <p>Highly motivated AI specialist pursuing MSc. in AI with experience building production-ready models (RAG, BERT, YOLOv8) and deploying autonomous systems. Focused on practical impact and robust engineering.</p>
+        <small class="muted">© 2025 Alan Anto</small>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      navToggle.classList.toggle('open');
+    });
+
+    // Animate progress bars when they enter viewport
+    const bars = document.querySelectorAll('.bar > div');
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          const val = e.target.getAttribute('data-value') || 0;
+          e.target.style.width = val + '%';
+          e.target.style.transition = 'width 1.2s cubic-bezier(.2,.9,.2,1)';
+        }
+      });
+    }, {threshold: 0.4});
+
+    bars.forEach(b => obs.observe(b));
+  </script>
+</body>
+</html>
